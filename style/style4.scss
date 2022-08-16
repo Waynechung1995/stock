@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: white;
+    box-shadow: 3px 3px 5px 1px #757574;
+    div.logo{
+        display: flex;
+        align-items: center;
+        flex: 5 1 400px;
+        margin-left: 2rem;
+        img{
+            height: 6vw;
+            width: 6vw;
+        }
+    }
+    nav{
+        flex: 2 1 400px;
+        ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: space-around;
+            li{
+                a{
+                    color:#09777d;
+                    text-decoration: none;
+                    font-size: 1.35rem;
+                }
+            }
+        }
+        
+    }
+}
+main{
+    .contact{
+            width: 50vw;
+            height: 40vh;
+            margin: 10px auto;
+            background-color: aliceblue;
+        .title{
+            h3{
+                text-align: center;
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: red;
+                line-height: 2rem;
+            }
+            p{
+                text-align: center;
+                font-size: 1.25rem;
+            }
+        }
+        h4{
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: red;
+            line-height: 2rem;
+            margin:20px 0 20px 10px ;
+        }
+        p{
+            font-size: 1.25rem;
+            margin: 20px 0 20px 10px ;
+            a{
+                text-decoration: none;
+                color: darkgoldenrod;
+            }
+        }
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 40vh;
+    justify-content: space-around;
+    background-color: rgb(207, 207, 207);
+
+    div.logo{
+        display: flex;
+        align-items: center;
+        img{
+            width: 6vw;
+            height: 6vw;
+        }
+    }
+    nav{
+        width: 30%;
+        ul{
+            display: flex;
+            list-style-type: none;
+            width: 100%;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            li{
+                flex-basis: 100px;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1.35rem;
+                    font-weight: 600;
+                }
+             }
+        }
+    }
+    section.links{
+        a{
+            margin: 0rem 1rem;
+            img{
+                width: 5vw;
+                height: 5vw;
+            }
+        }
+    }
+}
